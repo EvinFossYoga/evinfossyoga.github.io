@@ -1,4 +1,31 @@
-.wrapper {
+body {
   text-align: center;
-  height: auto;
+  background-color: $pastelviolet;
+}
+.contactlink {
+  a {
+    text-decoration: none;
+    color: $myrtle;
+    font-family: "Cute Font", cursive;
+    font-size: 2em;
+    padding-bottom: 0.1em;
+    &:hover {
+      color: $mac;
+      text-decoration: underline;
+    }
+  }
+}
+
+.h1 {
+//  padding-top = ys, auto;
+  color: $royale;
+  font-family: "Mirza", cursive;
+  font-size: 1.8em;
+//  padding-bottom = ys, auto;
+
+}
+p {
+  color: $flint;
+  font-family: "Unica One";
+  font-size: 1.15em;
 }

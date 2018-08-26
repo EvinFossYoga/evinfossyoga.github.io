@@ -1,0 +1,29 @@
+.cwrapper {
+  text-align: center;
+  height: 100vh; }
+
+body {
+  text-align: center;
+  background-color: #CC99B8; }
+
+.contactlink a {
+  text-decoration: none;
+  color: #297373;
+  font-family: "Cute Font", cursive;
+  font-size: 2em;
+  padding-bottom: 0.1em; }
+  .contactlink a:hover {
+    color: #FF8552;
+    text-decoration: underline; }
+
+.h1 {
+  color: #1F009E;
+  font-family: "Mirza", cursive;
+  font-size: 1.8em; }
+
+p {
+  color: #2E2B30;
+  font-family: "Unica One";
+  font-size: 1.15em; }
+
+/*# sourceMappingURL=main.css.map */
