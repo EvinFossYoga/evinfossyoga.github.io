@@ -1,3 +1,58 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 .cwrapper {
   text-align: center;
   height: 100vh; }
@@ -6,24 +61,36 @@ body {
   text-align: center;
   background-color: #CC99B8; }
 
-.contactlink a {
-  text-decoration: none;
-  color: #297373;
-  font-family: "Cute Font", cursive;
-  font-size: 2em;
-  padding-bottom: 0.1em; }
-  .contactlink a:hover {
-    color: #FF8552;
-    text-decoration: underline; }
-
 .h1 {
+  padding-top: 25px;
   color: #1F009E;
-  font-family: "Mirza", cursive;
-  font-size: 1.8em; }
+  font-family: "Unica One", cursive;
+  font-size: 3em;
+  padding-bottom: 15px; }
 
 p {
-  color: #2E2B30;
-  font-family: "Unica One";
-  font-size: 1.15em; }
+  padding-top: 15px;
+  color: #43464F;
+  font-family: "Mirza";
+  font-size: 1.3em;
+  font-weight: 500; }
+
+.links {
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  .links a {
+    text-decoration: none;
+    color: #297373;
+    font-family: "Cute Font", cursive;
+    font-size: 2.6em;
+    padding-bottom: 0.1em;
+    font-weight: lighter; }
+    .links a:hover {
+      color: #FF8552;
+      text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */

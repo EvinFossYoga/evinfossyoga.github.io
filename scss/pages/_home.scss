@@ -2,30 +2,38 @@ body {
   text-align: center;
   background-color: $pastelviolet;
 }
-.contactlink {
+
+.h1 {
+  padding-top: 25px;
+  color: $royale;
+  font-family: "Unica One", cursive;
+  font-size: 3em;
+  padding-bottom: 15px;
+}
+p {
+  padding-top: 15px;
+  color: $flint;
+  font-family: "Mirza";
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.links {
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   a {
     text-decoration: none;
     color: $myrtle;
     font-family: "Cute Font", cursive;
-    font-size: 2em;
+    font-size: 2.6em;
     padding-bottom: 0.1em;
+    font-weight: lighter;
     &:hover {
       color: $mac;
       text-decoration: underline;
     }
   }
-}
-
-.h1 {
-//  padding-top = ys, auto;
-  color: $royale;
-  font-family: "Mirza", cursive;
-  font-size: 1.8em;
-//  padding-bottom = ys, auto;
-
-}
-p {
-  color: $flint;
-  font-family: "Unica One";
-  font-size: 1.15em;
 }
