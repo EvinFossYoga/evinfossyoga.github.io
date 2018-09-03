@@ -7,8 +7,8 @@ body {
   padding-top: 25px;
   color: $royale;
   font-family: "Unica One", cursive;
-  font-size: 3em;
-  padding-bottom: 15px;
+  font-size: 3.2em;
+  padding-bottom: 75px;
 }
 p {
   padding-top: 15px;
@@ -20,8 +20,7 @@ p {
 .links {
   padding-top: 25px;
   padding-left: 50px;
-  padding-right: 50px;
-  width: 100%;
+  width: 92%;
   display: flex;
   justify-content: space-between;
   a {
@@ -35,5 +34,17 @@ p {
       color: $mac;
       text-decoration: underline;
     }
+  }
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 5px;
+  a {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: 500;
   }
 }

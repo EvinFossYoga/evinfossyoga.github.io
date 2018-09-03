@@ -1,4 +1,32 @@
-.cwrapper {
-  text-align: center;
-  height: 100vh;
+.c-links {
+  font-family: 'Boogaloo', cursive;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  a {
+    text-decoration: none;
+    color: $purple;
+    font-size: 1.7em;
+    font-weight: 500;
+    &:hover {
+      color: $plant;
+      text-decoration: underline;
+    }
+  }
+
+  #1 {
+    padding-bottom: 50px;
+  }
+  #2 {
+    padding-bottom: 50px;
+  }
+  #3 {
+    padding-bottom: 50px;
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 5px;
 }
