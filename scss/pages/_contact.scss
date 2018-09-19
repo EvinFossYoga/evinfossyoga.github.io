@@ -1,11 +1,12 @@
+
 .c-links {
   font-family: 'Boogaloo', cursive;
   justify-content: space-between;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   a {
     text-decoration: none;
     color: $purple;
-    font-size: 1.7em;
+    font-size: 2.7em;
     font-weight: 500;
     &:hover {
       color: $plant;
@@ -14,6 +15,7 @@
   }
 
   #1 {
+    padding-top: 50px;
     padding-bottom: 50px;
   }
   #2 {

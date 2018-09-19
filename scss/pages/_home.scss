@@ -2,20 +2,23 @@ body {
   text-align: center;
   background-color: $pastelviolet;
 }
-
 .h1 {
+  #ch1 {
+    padding-bottom: 80;
+  }
   padding-top: 25px;
   color: $royale;
   font-family: "Unica One", cursive;
-  font-size: 3.2em;
-  padding-bottom: 75px;
+  font-size: 4.5em;
+  padding-bottom: 35px;
 }
 p {
   padding-top: 15px;
   color: $flint;
   font-family: "Mirza";
-  font-size: 1.3em;
+  font-size: 2em;
   font-weight: 500;
+  padding-bottom: 10px;
 }
 .links {
   padding-top: 25px;
@@ -23,11 +26,12 @@ p {
   width: 92%;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 0px;
   a {
     text-decoration: none;
     color: $myrtle;
     font-family: "Cute Font", cursive;
-    font-size: 2.6em;
+    font-size: 3.7em;
     padding-bottom: 0.1em;
     font-weight: lighter;
     &:hover {
@@ -44,7 +48,12 @@ p {
   a {
     text-decoration: none;
     font-family: monospace;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 500;
+    color: $red;
+  }
+}
+.headshot {
+  img {
   }
 }
